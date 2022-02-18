@@ -1,0 +1,160 @@
+body {
+	font-family: "DM Sans", sans-serif;
+	font-family: "Mulish", sans-serif;
+}
+
+/* Style header */
+
+.header {
+	background: rgba(255, 113, 67, 0.27);
+	padding: 38px 0 48px 0;
+}
+
+.header__container {
+	max-width: 1070px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+}
+.menu__body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu__list {
+	margin-right: 160px;
+}
+
+.menu__item {
+	display: inline-block;
+	margin: 0 49px 0 0;
+}
+
+.menu__item:last-child {
+	margin: 0px;
+}
+
+.menu__link {
+	font-family: "DM Sans";
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: -0.468947px;
+	color: #696871;
+}
+
+.menu__link:hover {
+	color: #000;
+	transition: 300ms;
+}
+
+.button {
+	width: 212px;
+	height: 60px;
+	font-family: DM Sans;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 22px;
+	letter-spacing: -0.531474px;
+	color: #ffffff;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.button__orange {
+	background: #ff7143;
+}
+
+.button__orange:hover {
+	background: #f67c53;
+	transition: 500ms;
+}
+
+/* Style section */
+
+.growyou {
+}
+.section__container {
+	max-width: 1070px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 104px auto 85px;
+}
+.section__growyou-text {
+}
+
+.growyou__title {
+	font-family: "DM Sans";
+	font-weight: bold;
+	font-size: 80px;
+	line-height: 77px;
+	letter-spacing: -2.50105px;
+	color: #19191b;
+	max-width: 467px;
+	margin-bottom: 60px;
+}
+
+.growyou__text {
+	font-family: "Mulish";
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: -0.625263px;
+	color: #696871;
+	max-width: 410px;
+	margin-bottom: 50px;
+}
+
+.button__violet {
+	background: #5454d4;
+}
+
+.button__violet:hover {
+	background: #5454d4;
+	transition: 500ms;
+}
+
+.button__transporent {
+	background: none;
+	color: #5454d4;
+	border: 1px solid #5454d4;
+	margin-left: 30px;
+}
+.section__growyou-img {
+}
+
+/* Style footer */
+
+.footer {
+	background: rgba(255, 113, 67, 0.27);
+	padding: 53px 0;
+}
+
+.footer__container {
+	max-width: 1070px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__logo {
+}
+
+.menu__body-footer {
+}
+
+.menu__list {
+}
+
+.menu__item {
+}
+
+.menu__link {
+}
